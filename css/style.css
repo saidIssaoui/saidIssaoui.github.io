@@ -585,7 +585,7 @@ button.primary_btn {
 }
 
 .banner_area .banner_inner {
-    position: relative;
+    position: sticky;
     overflow: visible;
     width: 100%;
     min-height: 450px;
