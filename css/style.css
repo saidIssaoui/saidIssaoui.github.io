@@ -586,7 +586,7 @@ button.primary_btn {
 
 .banner_area .banner_inner {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     width: 100%;
     min-height: 450px;
     background: url(common-banner.png) no-repeat right bottom;
