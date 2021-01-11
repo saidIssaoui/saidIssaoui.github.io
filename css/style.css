@@ -42,31 +42,31 @@ h6 {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: inline;
     margin: 0;
     padding: 0
 }
 
 .list {
-    list-style: none;
+    list-style: inline;
     margin: 0;
     padding: 0
 }
 
 a {
-    text-decoration: none;
+    text-decoration: inline;
     transition: all .3s ease-in-out
 }
 
 a:hover,
 a:focus {
-    text-decoration: none;
-    outline: none
+    text-decoration: inline;
+    outline: inline
 }
 
 button:focus {
-    outline: none;
-    box-shadow: none
+    outline: inline;
+    box-shadow: inline
 }
 
 button.primary_btn {
@@ -191,7 +191,7 @@ button.primary_btn {
 
 @media(max-width:991px) {
     .main_title h2 br {
-        display: none
+        display: inline
     }
 }
 
@@ -240,7 +240,7 @@ button.primary_btn {
     font-size: 14px;
     line-height: 50px;
     padding: 0 38px;
-    outline: none !important;
+    outline: inline !important;
     text-align: center;
     cursor: pointer;
     text-transform: uppercase;
@@ -295,11 +295,11 @@ button.primary_btn {
 }
 
 .header_area .logo_inner_page {
-    display: none
+    display: inline
 }
 
 .header_area.header_inner_page .navbar-brand {
-    display: none
+    display: inline
 }
 
 .header_area.header_inner_page .logo_inner_page {
@@ -360,7 +360,7 @@ button.primary_btn {
 }
 
 .navbar .nav .nav-item .nav-link:after {
-    display: none
+    display: inline
 }
 
 .navbar .nav .nav-item:hover .nav-link,
@@ -373,10 +373,10 @@ button.primary_btn {
 }
 
 .navbar .nav .nav-item.submenu ul {
-    border: none;
+    border: inline;
     padding: 0;
     border-radius: 0;
-    box-shadow: none;
+    box-shadow: inline;
     margin: 0;
     background: #fff
 }
@@ -392,7 +392,7 @@ button.primary_btn {
         transition: all 300ms ease-in;
         visibility: hidden;
         display: block;
-        border: none;
+        border: inline;
         padding: 0;
         border-radius: 0;
         box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .1)
@@ -416,7 +416,7 @@ button.primary_btn {
 
 .navbar .nav .nav-item.submenu ul .nav-item {
     display: block;
-    float: none;
+    float: inline;
     margin-right: 0;
     border-bottom: 1px solid #ededed;
     margin-left: 0;
@@ -434,7 +434,7 @@ button.primary_btn {
 }
 
 .navbar .nav .nav-item.submenu ul .nav-item:last-child {
-    border-bottom: none
+    border-bottom: inline
 }
 
 .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
@@ -507,7 +507,7 @@ button.primary_btn {
 
 @media(max-width:991px) {
     .home_banner_area .banner_inner .home_right_img {
-        display: none
+        display: inline
     }
 }
 
@@ -638,11 +638,11 @@ button.primary_btn {
 
 .banner_area .banner_inner .banner_content .page_link a:before {
     font-family: themify;
-    speak: none;
+    speak: inline;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
-    text-transform: none;
+    text-transform: inline;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     content: "\e649";
@@ -661,7 +661,7 @@ button.primary_btn {
 }
 
 .banner_area .banner_inner .banner_content .page_link a:last-child:before {
-    display: none
+    display: inline
 }
 
 .l_blog_item .l_blog_text .date {
@@ -972,7 +972,7 @@ button.primary_btn {
 }
 
 .blog-info-link li:last-child::after {
-    display: none
+    display: inline
 }
 
 .blog-info-link::after {
@@ -1064,7 +1064,7 @@ button.primary_btn {
 .blog_right_sidebar .search_widget .form-control:focus {
     border-color: #f0e9ff;
     outline: 0;
-    box-shadow: none
+    box-shadow: inline
 }
 
 .blog_right_sidebar .search_widget .input-group button {
@@ -1097,7 +1097,7 @@ button.primary_btn {
 .blog_right_sidebar .newsletter_widget .form-control:focus {
     border-color: #f0e9ff;
     outline: 0;
-    box-shadow: none
+    box-shadow: inline
 }
 
 .blog_right_sidebar .newsletter_widget .input-group button {
@@ -1251,7 +1251,7 @@ button.primary_btn {
 }
 
 .single-post-area .blog_details {
-    box-shadow: none;
+    box-shadow: inline;
     padding: 0
 }
 
@@ -1654,7 +1654,7 @@ button.primary_btn {
 
 .comment-form .form-control:focus {
     outline: 0;
-    box-shadow: none
+    box-shadow: inline
 }
 
 .comment-form .form-control::placeholder {
@@ -1751,7 +1751,7 @@ button.primary_btn {
 
 .form-contact .form-control:focus {
     outline: 0;
-    box-shadow: none
+    box-shadow: inline
 }
 
 .form-contact .form-control::placeholder {
@@ -1854,7 +1854,7 @@ button.primary_btn {
 }
 
 .button-group-area .disable:before {
-    display: none
+    display: inline
 }
 
 .primary {
@@ -2021,7 +2021,7 @@ button.primary_btn {
 
 @media(max-width:991.98px) {
     .generic-banner .generic-banner-content h2 br {
-        display: none
+        display: inline
     }
 }
 
@@ -2032,7 +2032,7 @@ button.primary_btn {
 
 @media(max-width:991.98px) {
     .generic-banner .generic-banner-content p br {
-        display: none
+        display: inline
     }
 }
 
@@ -2155,12 +2155,12 @@ h6 {
 
 .genric-btn {
     display: inline-block;
-    outline: none;
+    outline: inline;
     line-height: 40px;
     padding: 0 30px;
     font-size: .8em;
     text-align: center;
-    text-decoration: none;
+    text-decoration: inline;
     font-weight: 500;
     cursor: pointer;
     -webkit-transition: all .3s ease 0s;
@@ -2170,7 +2170,7 @@ h6 {
 }
 
 .genric-btn:focus {
-    outline: none
+    outline: inline
 }
 
 .genric-btn.e-large {
@@ -2582,14 +2582,14 @@ h6 {
     display: block;
     width: 100%;
     line-height: 40px;
-    border: none;
-    outline: none;
+    border: inline;
+    outline: inline;
     background: #f9f9ff;
     padding: 0 20px
 }
 
 .single-input:focus {
-    outline: none
+    outline: inline
 }
 
 .input-group-icon {
@@ -2616,16 +2616,16 @@ h6 {
     display: block;
     width: 100%;
     line-height: 40px;
-    border: none;
-    outline: none;
+    border: inline;
+    outline: inline;
     background: #f9f9ff;
     padding: 0 20px;
     height: 100px;
-    resize: none
+    resize: inline
 }
 
 .single-textarea:focus {
-    outline: none
+    outline: inline
 }
 
 .single-input-primary {
@@ -2633,13 +2633,13 @@ h6 {
     width: 100%;
     line-height: 40px;
     border: 1px solid transparent;
-    outline: none;
+    outline: inline;
     background: #f9f9ff;
     padding: 0 20px
 }
 
 .single-input-primary:focus {
-    outline: none;
+    outline: inline;
     border: 1px solid #f8b600
 }
 
@@ -2648,13 +2648,13 @@ h6 {
     width: 100%;
     line-height: 40px;
     border: 1px solid transparent;
-    outline: none;
+    outline: inline;
     background: #f9f9ff;
     padding: 0 20px
 }
 
 .single-input-accent:focus {
-    outline: none;
+    outline: inline;
     border: 1px solid #eb6b55
 }
 
@@ -2663,13 +2663,13 @@ h6 {
     width: 100%;
     line-height: 40px;
     border: 1px solid transparent;
-    outline: none;
+    outline: inline;
     background: #f9f9ff;
     padding: 0 20px
 }
 
 .single-input-secondary:focus {
-    outline: none;
+    outline: inline;
     border: 1px solid #f09359
 }
 
@@ -2903,7 +2903,7 @@ h6 {
 
 .primary-checkbox input:checked + label {
     background: url(primary-check.png) no-repeat center center/cover;
-    border: none
+    border: inline
 }
 
 .confirm-checkbox {
@@ -2941,7 +2941,7 @@ h6 {
 
 .confirm-checkbox input:checked + label {
     background: url(success-check.png) no-repeat center center/cover;
-    border: none
+    border: inline
 }
 
 .disabled-checkbox {
@@ -2984,7 +2984,7 @@ h6 {
 
 .disabled-checkbox input:checked + label {
     background: url(disabled-check.png) no-repeat center center/cover;
-    border: none
+    border: inline
 }
 
 .primary-radio {
@@ -3022,7 +3022,7 @@ h6 {
 
 .primary-radio input:checked + label {
     background: url(primary-radio.png) no-repeat center center/cover;
-    border: none
+    border: inline
 }
 
 .confirm-radio {
@@ -3060,7 +3060,7 @@ h6 {
 
 .confirm-radio input:checked + label {
     background: url(success-radio.png) no-repeat center center/cover;
-    border: none
+    border: inline
 }
 
 .disabled-radio {
@@ -3102,19 +3102,19 @@ h6 {
 }
 
 .unordered-list {
-    list-style: none;
+    list-style: inline;
     padding: 0;
     margin: 0
 }
 
 .ordered-list {
-    list-style: none;
+    list-style: inline;
     padding: 0
 }
 
 .disabled-radio input:checked + label {
     background: url(disabled-radio.png) no-repeat center center/cover;
-    border: none
+    border: inline
 }
 
 .default-select {
@@ -3122,7 +3122,7 @@ h6 {
 }
 
 .default-select .nice-select {
-    border: none;
+    border: inline;
     border-radius: 0;
     height: 40px;
     background: #fff;
@@ -3132,9 +3132,9 @@ h6 {
 
 .default-select .nice-select .list {
     margin-top: 0;
-    border: none;
+    border: inline;
     border-radius: 0;
-    box-shadow: none;
+    box-shadow: inline;
     width: 100%;
     padding: 10px 0 10px 0
 }
@@ -3182,7 +3182,7 @@ h6 {
 }
 
 .form-select .nice-select {
-    border: none;
+    border: inline;
     border-radius: 0;
     height: 40px;
     background: #f9f9ff !important;
@@ -3193,9 +3193,9 @@ h6 {
 
 .form-select .nice-select .list {
     margin-top: 0;
-    border: none;
+    border: inline;
     border-radius: 0;
-    box-shadow: none;
+    box-shadow: inline;
     width: 100%;
     padding: 10px 0 10px 0
 }
@@ -3315,7 +3315,7 @@ h6 {
 
 @media(max-width:991px) {
     .about_area .about_img {
-        display: none
+        display: inline
     }
 }
 
@@ -3692,7 +3692,7 @@ h6 {
     background: url(testimonial-bg.png) left center no-repeat;
     background-size: cover;
     z-index: -1;
-    display: none
+    display: inline
 }
 
 @media(min-width:992px) {
@@ -3764,7 +3764,7 @@ h6 {
 }
 
 .star_rating {
-    list-style-type: none;
+    list-style-type: inline;
     margin: 0;
     padding: 0
 }
@@ -3809,7 +3809,7 @@ h6 {
     }
 
     .home_banner_area .banner_inner .banner_content h2 br {
-        display: none;
+        display: inline;
         font-size: 36px
     }
 
@@ -3821,7 +3821,7 @@ h6 {
 
 @media(max-width:991px) {
     .navbar-toggler {
-        border: none;
+        border: inline;
         border-radius: 0;
         padding: 0;
         cursor: pointer;
@@ -3924,13 +3924,13 @@ h6 {
     }
 
     .home_right_img {
-        display: none
+        display: inline
     }
 
     .footer_area {
         padding-top: 80px !important;
         padding-bottom: 80px !important;
-        background-image: none !important;
+        background-image: inline !important;
         background-color: #fcf8ff
     }
 
@@ -3981,11 +3981,11 @@ h6 {
     }
 
     .home_banner_area .banner_inner .home_left_img {
-        display: none
+        display: inline
     }
 
     .header_area .navbar .primary_btn {
-        display: none
+        display: inline
     }
 
     .left_side_text {
@@ -4018,7 +4018,7 @@ h6 {
     }
 
     .home_banner_area .banner_inner .banner_content .primary_btn {
-        display: none
+        display: inline
     }
 
     .blog_info.text-right {
@@ -4031,7 +4031,7 @@ h6 {
     }
 
     .home_banner_area .banner_inner .banner_content p br {
-        display: none
+        display: inline
     }
 
     .home_banner_area .banner_inner .banner_content h3 span {
@@ -4091,7 +4091,7 @@ h6 {
     }
 
     .home_banner_area .banner_inner .banner_content img {
-        display: none
+        display: inline
     }
 
     .home_banner_area .banner_inner .banner_content h5 {
