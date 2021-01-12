@@ -574,7 +574,7 @@ button.primary_btn {
 }
 
 .banner_area {
-    position: relative;
+    position: sticky;
     z-index: 1
 }
 
@@ -633,7 +633,7 @@ button.primary_btn {
     font-family: roboto, sans-serif;
     padding-left: 20px;
     padding-right: 8px;
-    position: relative
+    position: sticky;
 }
 
 .banner_area .banner_inner .banner_content .page_link a:before {
