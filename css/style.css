@@ -472,7 +472,7 @@ button.primary_btn {
 }
 
 .home_banner_area {
-    background: url(home-banner.png) no-repeat top center;
+    background: url(home-banner.png) top center;
     background-position: center;
     background-size: cover;
     min-height: 890px
